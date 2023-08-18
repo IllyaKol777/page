@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+.accordion_body {
+  margin-top: -10px;
+  padding: 31px 23px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164%;
+  display: block;
+}
+
+.accordion_body li {
+  position: relative;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.accordion_body li:before {
+    content: '\2713';
+    color: green;
+    margin-right: 8px; /* Збільште або зменште відстань від символу до тексту за потреби */
+    font-size: 30px; /* Збільште розмір символу за потреби */
+    border: 2px solid green; /* Товщина і колір зовнішньої обводки */
+    border-radius: 50%; /* Радіус для створення круглої обводки */
+    padding: 4px; /* Додайте внутрішній відступ для створення простору навколо символу */
+}
+
+li {
+    font-size: 30px;
+}
+
+
+    </style>
+    <div class="accordion_body">
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <p style="padding-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa mollitia necessitatibus quam dolores quisquam voluptatibus impedit nihil aut, suscipit dignissimos inventore cum sunt illum ducimus quia doloremque. Ab, magnam porro!</p>
+            <li>Що робити, якщо дитина без свідомості.</li>
+            <li>Як правильно і швидко викликати швидку?</li>
+            <li>Що сказати оператору, щоб приїхала потрібна бригада з дитячим лікарем.</li>
+            <li>Що робити, доки їде швидка.</li>
+        </ul>
+    </div>
+</body>
+</html>
