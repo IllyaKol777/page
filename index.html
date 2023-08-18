@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/media.css">
 </head>
-<body>
+<body style="background-color: #fff;">
     <section class="s1">
         <div class="container">
             <div class="row">
@@ -43,6 +43,145 @@
         <img data-src="./assets/img/el.png" class="lazyload el mob">-->
     </section>
     <style>
+        .program-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            margin-left: 250px;
+            margin-right: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .program-card {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        }
+
+        .image-block {
+            flex: 0 0 auto;
+            margin-right: 15px;
+        }
+
+        .text-block {
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .image {
+            max-width: 100%;
+            width: 150px;
+            height: 150px;
+            border-radius: 10%;
+        }
+    </style>
+    <section class="s3" style="background-color: #fff; color: #000;">
+        <div class="container">
+            <h2><span style="color: #000;">КУРС ДЛЯ ВАС, ЯКЩО ВИ:</span></h2>
+            <div class="row">
+                <div class="col program-card" style="display: flex; flex-direction: column; text-align: center;">
+                    <div class="image-block" style="margin-bottom: 15px;">
+                        <div class="image" style="
+                        background-image: url('./assets/img/s8.webp'); 
+                        width: 100px;
+                        height: 100px;
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        padding: 20px;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: bold;
+                        ">
+                        </div>
+                    </div>
+                    <div class="text-block">
+                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Репетитор будь-якого предмету</span></div>
+                        <div class="" style="text-align: left;">
+                            <p>Українська та іноземні мови, математика, фізика, історія та інші предмети</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col program-card" style="display: flex; flex-direction: column; text-align: center;">
+                    <div class="image-block" style="margin-bottom: 15px;">
+                        <div class="image" style="
+                        background-image: url('./assets/img/s9.webp'); 
+                        width: 100px;
+                        height: 100px;
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        padding: 20px;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: bold;
+                        ">
+                        </div>
+                    </div>
+                    <div class="text-block">
+                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Втомилися від індивідуальних занять</span></div>
+                        <div class="" style="text-align: left;">
+                            <p>Заняття одноманітні, у вас може бути декілька уроків на одну тему підряд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col program-card" style="display: flex; flex-direction: column; text-align: center;">
+                    <div class="image-block" style="margin-bottom: 15px;">
+                        <div class="image" style="
+                        background-image: url('./assets/img/s10.webp'); 
+                        width: 100px;
+                        height: 100px;
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        padding: 20px;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: bold;
+                        ">
+                        </div>
+                    </div>
+                    <div class="text-block">
+                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Хочете більше заробляти</span></div>
+                        <div class="" style="text-align: left;">
+                            <p>Розумієте, що індивідуальне заняття має коштувати дорожче і хочете вийти на новий рівень доходу</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col program-card" style="display: flex; flex-direction: column; text-align: center;">
+                    <div class="image-block" style="margin-bottom: 15px;">
+                        <div class="image" style="
+                        background-image: url('./assets/img/s11.webp'); 
+                        width: 100px;
+                        height: 100px;
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        padding: 20px;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: bold;
+                        ">
+                        </div>
+                    </div>
+                    <div class="text-block">
+                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Хочете мати більше вільного часу</span></div>
+                        <div class="" style="text-align: left;">
+                            <p>Звільнити вихідні, зробити обідню перерву і не більше 4 уроків на день</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
         .container- {
             width: 100%;
             position: relative;
@@ -55,7 +194,7 @@
         .sticky-block {
             position: fixed;
             bottom: 0;
-            background-color: #FFAA29;
+            background-color: #ffffff;
             padding: 10px;
             width: 100%;
             z-index: 100;
@@ -74,63 +213,11 @@
             }
         }
     </style>
-
-    <section class="s3 container">
-        <div class="mr-5">
-            <h2><span>Курс для вас, якщо ви:</span></h2>
-            <div class="row">
-                <div class="col program-card">
-                    <div class="image-block">
-                        <img class="image" src="./assets/img/s8.webp" alt="image">
-                    </div>
-                    <div class="text-block">
-                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Репетитор будь-якого предмету</span></div>
-                        <div class="program-text">
-                            <p>Українська та іноземні мови, математика, фізика, історія та інші предмети</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col program-card">
-                    <div class="image-block">
-                        <img class="image" src="./assets/img/s9.webp" alt="image">
-                    </div>
-                    <div class="text-block">
-                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Втомилися від індивідуальних занять</span></div>
-                        <div class="program-text">
-                            <p>Заняття одноманітні, у вас може бути декілька уроків на одну тему підряд</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col program-card">
-                    <div class="image-block">
-                        <img class="image" src="./assets/img/s10.webp" alt="image">
-                    </div>
-                    <div class="text-block">
-                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Хочете більше заробляти</span></div>
-                        <div class="program-text">
-                            <p>Розумієте, що індивідуальне заняття має коштувати дорожче і хочете вийти на новий рівень доходу</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col program-card">
-                    <div class="image-block">
-                        <img class="image" src="./assets/img/s11.webp" alt="image">
-                    </div>
-                    <div class="text-block">
-                        <div class="program-title"><span style="font-size: 15px; font-weight: bold;">Хочете мати більше вільного часу</span></div>
-                        <div class="program-text">
-                            <p>Звільнити вихідні, зробити обідню перерву і не більше 4 уроків на день</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="s2">
+    <section class="s2" style="background-color: #1e52ff; color: #fff;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                    <h2 style="text-align: center;"><span>Хто я?</span></h2>
+                    <h2 style="text-align: center;"><span style="color: #fff;">Хто я?</span></h2>
                     <p>Мене звати <b>Островська Анна</b> - я успішний викладач математики та спікер конференцій для репетиторів. Допомогла більш ніж 90 викладачам підвищити свій дохід та змінити підхід до викладання.<br><br>Мої методи неодноразово перевірені на власному досвіді та кейсах колег. Вони допомогають подолати фінансову стелю і вийти на принципово новий рівень життя</p>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
@@ -143,7 +230,6 @@
         .container-foot {
             display: flex;
             flex-direction: column;
-            
         }
 
         .content-foot {
@@ -182,158 +268,65 @@
             }
         }
     </style>
-    <div class="container-foot">
+    <div class="container-foot" style="display: none;" id="foo">
         <div class="content-foot">
-            <!-- Ваш вміст -->
         </div>
         <div class="sticky-blocky">
             <a href="https://secure.wayforpay.com/button/ba2239f24c171"> Прийняти участь зі <span>знижкою 70%</span></a>
         </div>
     </div>
     <style>
-        /* Основні стилі для блока */
-        .active-block- .blockProfits- {
-            padding: 30px;
-            text-align: center;
-        }
-
-        /* Стилі для заголовка */
-        .block-title- {
-            margin-bottom: 20px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        /* Стилі для карток прибутку */
-        .row-cols-xl-3- .row-cols-lg-3- .row-cols-md-2- .row-cols-sm-1- .row-cols-1- {
-            display: flex;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-        }
-
-        .col- {
-            flex: 0 0 auto;
-            width: 100%;
-            max-width: 100%;
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-
-        .profit-card- {
-            background-color: #1e52ff;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        /* Стилі для позначки галки */
-        .checkmark- {
-            margin-bottom: 15px;
-        }
-
-        .checkmark- svg {
-            width: 41px;
-            height: 44.508px;
-            fill: none;
-            stroke-width: 3;
-        }
-
-        /* Стилі для заголовку і тексту */
-        .profit-title- {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .profit-text- {
-            font-size: 18px;
-            color: #ffffff;
-        }
-
-        /* Адаптивні стилі для телефонів */
-        @media (max-width: 767px) {
-            .profit-card- {
-                padding: 15px;
-            }
-            
-            .profit-title- {
-                font-size: 20px;
-            }
-            
-            .profit-text- {
-                font-size: 16px;
-            }
+        .accordion1_body {
+          margin-top: -10px;
+          padding: 31px 23px 0;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 164%;
+          display: block;
+          background-color: #fff;
+          color: #000;
         }
         
-    </style>
-    <div class="active-block- blockProfits- container" id="profits-34801" data-block-id="34801" data-type="profits">
-        <div class="row block-title- text-md-left-">
-            <div class="col-12" style="font-size: 36px; text-align: center; margin-top: 15px;">Ви отримаєте:</div>
+        .accordion1_body li {
+          position: relative;
+          margin-bottom: 12px;
+        }
+        
+        .accordion1_body li:before {
+            content: ''; 
+            display: inline-block;
+            width: 30px; 
+            height: 25px; 
+            background-image: url(./assets/img/gal.png); 
+            margin-right: 15px;
+            background-size:contain;
+            background-position:bottom;
+            background-repeat: no-repeat;
+        }
+        
+        li {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        </style>
+    <section class="accordion1_body" style="padding-bottom: 30px;">
+        <div style="font-size: 36px; text-align: center; margin-bottom: 25px;">Ви отримаєте:</div>
+        <div>
+            <ul>
+                <li>Уроки</li>
+                <p class="container" style="padding-left: 46px;">Тижневий курс складається з 7 уроків у відео форматі з домашніми завданнями</p>
+                <li>Репетиторський клуб</li>
+                <p class="container" style="padding-left: 46px;">Доступ до репетиторського клубу у телеграм, де можна спілкуватися з колегами і обмінюватися досвідом</p>
+                <li>Матеріали</li>
+                <p class="container" style="padding-left: 46px;">Доступ до всіх матеріалів протягом року! Вони будуть у зручному форматі в телеграм-боті</p>
+                <li>Шаблони для повідомлень</li>
+                <p class="container" style="padding-left: 46px;">Шаблони готових повідомлень для батьків та учнів, щоб ви не ламали голову над формулюваннями</p>
+            </ul>
         </div>
-        <div class="row row-cols-xl-3- row-cols-lg-3- row-cols-md-2- row-cols-sm-1- row-cols-1-">
-                <div class="col- profit-card-">
-                    <div class="checkmark-">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="44.508" viewBox="0 0 41 44.508">
-                            <g transform="translate(-5 4.508)">
-                                <g class="check_color_2" transform="translate(5 -1)" fill="none" stroke="#fc6250" stroke-width="3">
-                                    <circle cx="20.5" cy="20.5" r="20.5" stroke="none"></circle>
-                                    <circle cx="20.5" cy="20.5" r="19" fill="none"></circle>
-                                </g>
-                                <path class="check_color_1" d="M0-6.537,5.855.669,22.044-29.123" transform="translate(15.849 26.674) rotate(7)" fill="none" stroke="#1f1610" stroke-linecap="round" stroke-width="3"></path>
-                            </g>
-                        </svg>                </div>
-                    <div class="profit-title-">Уроки</div>
-                    <div class="profit-text-"><p>Тижневий курс складається з 7 уроків у відео форматі з домашніми завданнями</p></div>
-                </div>
-                <div class="col- profit-card-">
-                    <div class="checkmark-">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="44.508" viewBox="0 0 41 44.508">
-                            <g transform="translate(-5 4.508)">
-                                <g class="check_color_2" transform="translate(5 -1)" fill="none" stroke="#fc6250" stroke-width="3">
-                                    <circle cx="20.5" cy="20.5" r="20.5" stroke="none"></circle>
-                                    <circle cx="20.5" cy="20.5" r="19" fill="none"></circle>
-                                </g>
-                                <path class="check_color_1" d="M0-6.537,5.855.669,22.044-29.123" transform="translate(15.849 26.674) rotate(7)" fill="none" stroke="#1f1610" stroke-linecap="round" stroke-width="3"></path>
-                            </g>
-                        </svg>                </div>
-                    <div class="profit-title-">Репетиторський клуб</div>
-                    <div class="profit-text-"><p>Доступ до репетиторського клубу у телеграм, де можна спілкуватися з колегами і обмінюватися досвідом</p></div>
-                </div>
-                <div class="col- profit-card-">
-                    <div class="checkmark-">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="44.508" viewBox="0 0 41 44.508">
-                            <g transform="translate(-5 4.508)">
-                                <g class="check_color_2" transform="translate(5 -1)" fill="none" stroke="#fc6250" stroke-width="3">
-                                    <circle cx="20.5" cy="20.5" r="20.5" stroke="none"></circle>
-                                    <circle cx="20.5" cy="20.5" r="19" fill="none"></circle>
-                                </g>
-                                <path class="check_color_1" d="M0-6.537,5.855.669,22.044-29.123" transform="translate(15.849 26.674) rotate(7)" fill="none" stroke="#1f1610" stroke-linecap="round" stroke-width="3"></path>
-                            </g>
-                        </svg>                </div>
-                    <div class="profit-title-">Матеріали</div>
-                    <div class="profit-text-"><p>Доступ до всіх матеріалів протягом року! Вони будуть у зручному форматі в телеграм-боті</p></div>
-                </div>
-                <div class="col- profit-card-">
-                    <div class="checkmark-">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="44.508" viewBox="0 0 41 44.508">
-                            <g transform="translate(-5 4.508)">
-                                <g class="check_color_2" transform="translate(5 -1)" fill="none" stroke="#fc6250" stroke-width="3">
-                                    <circle cx="20.5" cy="20.5" r="20.5" stroke="none"></circle>
-                                    <circle cx="20.5" cy="20.5" r="19" fill="none"></circle>
-                                </g>
-                                <path class="check_color_1" d="M0-6.537,5.855.669,22.044-29.123" transform="translate(15.849 26.674) rotate(7)" fill="none" stroke="#1f1610" stroke-linecap="round" stroke-width="3"></path>
-                            </g>
-                        </svg>                </div>
-                    <div class="profit-title-">Шаблони для повідомлень</div>
-                    <div class="profit-text-"><p>Шаблони готових повідомлень для батьків та учнів, щоб ви не ламали голову над формулюваннями</p></div>
-                </div>
-    </div>
-    </div>
+    </section>
     <section class="s4 s4_2">
         <div class="container">
-            <h2><span>Результати курсу:</span></h2>
+            <h2 style="margin: 0 ;"><span>Результати курсу:</span></h2>
             <p class="lbl" style="font-weight: 700; font-size: 15px;">Ведення групових занять дало мені і моїм колегам такі результати:</p>
             <div class="content" style="font-size: 15px;">
                 <p>— Дохід до 100тис грн/місяць</p>
@@ -346,42 +339,6 @@
             </div>
         </div>
     </section>
-    <style>
-        .program-card {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 30px;
-            margin-left: 250px;
-            margin-right: 50px;
-        }
-
-        @media (max-width: 768px) {
-            .program-card {
-                margin-left: 50px;
-                margin-right: 50px;
-            }
-        }
-
-        .image-block {
-            flex: 0 0 auto;
-            margin-right: 15px;
-        }
-
-        .text-block {
-            flex: 1 1 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .image {
-            max-width: 100%;
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-        }
-    </style>
     <section class="s3" style="background-color: #fff; color: #000;">
         <div class="container">
             <h2><span style="color: #000;">Програма уроків:</span></h2>
@@ -524,7 +481,7 @@
         }
         updateTimer();
     </script>
-    <section class="s14">
+    <section class="s14" style="background-color: #1e52ff;">
         <div class="container">
             <h2>Часті питання:</h2>
             <div class="accordion">
@@ -741,5 +698,14 @@
         </div>
     </footer>
     <!--<script src="assets/js/script.js"></script>-->
+    <script>
+        // Отримуємо посилання на елемент за його id
+        const fooElement = document.getElementById('foo');
+
+        // Через 20 секунд змінюємо стиль елементу
+        setTimeout(() => {
+            fooElement.style.display = 'block';
+        }, 5000); // 20000 мілісекунд = 20 секунд
+    </script>
 </body>
 </html>
